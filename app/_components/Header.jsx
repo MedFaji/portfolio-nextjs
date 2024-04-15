@@ -1,27 +1,23 @@
+"use client";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import { Link } from "react-scroll";
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
     <section className="py-10 md:py-16">
       <div className="container max-w-screen-xl mx-auto px-4">
-        <nav className="flex items-center justify-between mb-40">
-          <Image
-            src="/image/navbar-logo.png"
-            alt="Logo"
-            width={50}
-            height={50}
-          />
-
-          <button className="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">
-            Get my CV
-          </button>
-        </nav>
-
+        <Navbar />
         <div className="text-center">
-          <div className="flex justify-center mb-16">
-            <img src="/image/home-img.png" alt="Image" />
+          <div className="flex justify-center mb-8">
+            <Image
+              src="/image/me-min.png"
+              alt="Image"
+              className="rounded-full"
+              width={200}
+              height={200}
+            />
           </div>
 
           <h6 className="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">
@@ -32,16 +28,18 @@ const Header = () => {
             Junior Software Developer
           </h1>
 
-          <div className="flex justify-center ">
-            <p className=" font-normal text-gray-600 text-md md:text-xl mb-16 w-8/12">
-              Recent Master's graduate in Information Systems Engineering. I
-              have a passion for software. I enjoy creating tools that make life
-              easier for people.
+          <div className="flex justify-center">
+            <p className="font-normal text-gray-600 text-md md:text-xl mb-16 w-9/12">
+              Recent Master's graduate in Information Systems Engineering with a
+              passion for software development. Eager to contribute technical
+              expertise and creativity to a dynamic team environment.
             </p>
           </div>
 
           <Link
-            href="#"
+            to="contact"
+            smooth={true}
+            duration={800}
             className="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
           >
             Hire me
