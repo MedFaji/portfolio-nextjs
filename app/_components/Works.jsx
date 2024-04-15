@@ -1,6 +1,9 @@
 import React from "react";
 import { SiReact, SiStrapi, SiTailwindcss } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { LuExternalLink } from "react-icons/lu";
+import { FaCss3Alt } from "react-icons/fa";
+import Link from "next/link";
 
 const Works = () => {
   return (
@@ -31,11 +34,10 @@ const Works = () => {
                   Online Grocery React App Store
                 </h1>
 
-                <p className="font-normal text-gray-500 text-sm md:text-base mb-3">
+                <p className="font-normal text-gray-500 text-sm md:text-base mb-5 max-w-xl">
                   build and deploy a full-stack Next.js online grocery store
-                  app, <br /> creating a seamless shopping experience using{" "}
-                  <br />
-                  React, Strapi, and Tailwind CSS!
+                  app, creating a seamless shopping experience using React,
+                  Strapi, and Tailwind CSS!
                 </p>
 
                 <div className="flex items-center gap-3 ">
@@ -43,6 +45,15 @@ const Works = () => {
                   <TbBrandNextjs size={"25"} />
                   <SiStrapi size={"25"} />
                   <SiTailwindcss size={"25"} />
+                  <span className="w-20 h-0.5 bg-gray-300 mx-3"></span>
+                  <Link
+                    href="https://grocery-store.medevs.tech/"
+                    target="_blank"
+                    className="text-blue-500 font-semibold text-sm md:text-base flex items-center gap-2"
+                  >
+                    <LuExternalLink />
+                    View Project
+                  </Link>
                 </div>
               </div>
             </div>
@@ -56,14 +67,27 @@ const Works = () => {
 
               <div>
                 <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
-                  Demo API Generator
+                  Yumrush Food Delivery App
                 </h1>
 
-                <p className="font-normal text-gray-500 text-sm md:text-base">
-                  A dummy data free and documented API generator to facilitate{" "}
-                  <br /> the process of testing the front-end portion of
-                  projects.
+                <p className="font-normal text-gray-500 text-sm md:text-base mb-5 max-w-xl">
+                  Yumrush is a front-end project for a food delivery app
+                  designed to streamline the ordering process for users. Created
+                  using React and Vanilla CSS.
                 </p>
+                <div className="flex items-center gap-3 ">
+                  <SiReact size={"25"} />
+                  <FaCss3Alt size={"25"} />
+                  <span className="w-20 h-0.5 bg-gray-300 mx-3"></span>
+                  <Link
+                    href="https://yumrush.medevs.tech/"
+                    target="_blank"
+                    className="text-blue-500 font-semibold text-sm md:text-base flex items-center gap-2"
+                  >
+                    <LuExternalLink />
+                    View Project
+                  </Link>
+                </div>
               </div>
             </div>
 
@@ -79,9 +103,9 @@ const Works = () => {
                   Demo API Generator
                 </h1>
 
-                <p className="font-normal text-gray-500 text-sm md:text-base">
-                  A dummy data free and documented API generator to facilitate{" "}
-                  <br /> the process of testing the front-end portion of
+                <p className="font-normal text-gray-500 text-sm md:text-base mb-5 max-w-xl">
+                  A dummy data free and documented API generator to
+                  facilitatethe process of testing the front-end portion of
                   projects.
                 </p>
               </div>

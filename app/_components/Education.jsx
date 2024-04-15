@@ -24,8 +24,6 @@ const Education = () => {
             <div className="relative">
               <h6 className="font-semibold text-gray-500 text-md relative z-10">
                 Faculty of Science Semlalia, Marrakech
-                <br />
-                Morocco
               </h6>
               <span className="w-32 h-1 bg-blue-200 absolute bottom-0 left-0 z-0"></span>
             </div>
@@ -37,14 +35,12 @@ const Education = () => {
             </h4>
 
             <p className="font-normal text-gray-500 text-md h-16 mb-4">
-              Professional license - Technologies and web programming
+              Professional License - Technologies and Web Programming
             </p>
 
             <div className="relative">
               <h6 className="font-semibold text-gray-500 text-md relative z-10">
                 Faculty of Science Semlalia, Marrakech
-                <br />
-                Morocco
               </h6>
               <span className="w-32 h-1 bg-blue-200 absolute bottom-0 left-0 z-0"></span>
             </div>
@@ -56,13 +52,12 @@ const Education = () => {
             </h4>
 
             <p className="font-normal text-gray-500 text-md h-16 mb-4">
-              BTS - Information systems development
+              BTS - Information Systems Development
             </p>
 
             <div className="relative">
               <h6 className="font-semibold text-gray-500 text-md relative z-10">
-                BTS preparation classes, Settat <br />
-                Morocco
+                BTS preparation classes, Settat
               </h6>
               <span className="w-32 h-1 bg-blue-200 absolute bottom-0 left-0 z-0"></span>
             </div>
