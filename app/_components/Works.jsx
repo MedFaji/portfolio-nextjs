@@ -3,6 +3,9 @@ import { SiReact, SiStrapi, SiTailwindcss } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { LuExternalLink } from "react-icons/lu";
 import { FaCss3Alt } from "react-icons/fa";
+import { RiSupabaseLine } from "react-icons/ri";
+import { SiClerk } from "react-icons/si";
+
 import Link from "next/link";
 
 const Works = () => {
@@ -22,9 +25,45 @@ const Works = () => {
           </div>
 
           <div className="space-y-24">
-            <div className="flex space-x-6 ">
+            <div className="flex space-x-6">
               <h1 className="font-normal text-gray-700 text-3xl md:text-4xl">
                 01
+              </h1>
+
+              <span className="w-28 h-0.5 bg-gray-300 mt-5"></span>
+
+              <div>
+                <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
+                  Real Estate App
+                </h1>
+
+                <p className="font-normal text-gray-500 text-sm md:text-base mb-5 max-w-xl">
+                  Create and deploy a modern real estate application from
+                  scratch. Full Stack Real Estate App with Next.js, React.js,
+                  TailwindCss, Supabase and Clerk for Authentication and User
+                  Management.
+                </p>
+                <div className="flex items-center gap-3 ">
+                  <SiReact size={"25"} />
+                  <TbBrandNextjs size={"25"} />
+                  <SiTailwindcss size={"25"} />
+                  <RiSupabaseLine size={"25"} />
+                  <SiClerk size={"25"} />
+                  <span className="w-20 h-0.5 bg-gray-300 mx-3"></span>
+                  <Link
+                    href="https://real-estate-app.medevs.tech/"
+                    target="_blank"
+                    className="text-blue-500 font-semibold text-sm md:text-base flex items-center gap-2"
+                  >
+                    <LuExternalLink />
+                    View Project
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="flex space-x-6 ">
+              <h1 className="font-normal text-gray-700 text-3xl md:text-4xl">
+                02
               </h1>
 
               <span className="w-28 h-0.5 bg-gray-300 mt-5"></span>
@@ -35,7 +74,7 @@ const Works = () => {
                 </h1>
 
                 <p className="font-normal text-gray-500 text-sm md:text-base mb-5 max-w-xl">
-                  build and deploy a full-stack Next.js online grocery store
+                  Build and deploy a full-stack Next.js online grocery store
                   app, creating a seamless shopping experience using React,
                   Strapi, and Tailwind CSS!
                 </p>
@@ -60,7 +99,7 @@ const Works = () => {
 
             <div className="flex space-x-6">
               <h1 className="font-normal text-gray-700 text-3xl md:text-4xl">
-                02
+                03
               </h1>
 
               <span className="w-28 h-0.5 bg-gray-300 mt-5"></span>
@@ -73,7 +112,8 @@ const Works = () => {
                 <p className="font-normal text-gray-500 text-sm md:text-base mb-5 max-w-xl">
                   Yumrush is a front-end project for a food delivery app
                   designed to streamline the ordering process for users. Created
-                  using React and Vanilla CSS.
+                  using React and Vanilla CSS. I still work on the backend with
+                  ExpressJS and it's going to be deployed soon...
                 </p>
                 <div className="flex items-center gap-3 ">
                   <SiReact size={"25"} />
@@ -88,26 +128,6 @@ const Works = () => {
                     View Project
                   </Link>
                 </div>
-              </div>
-            </div>
-
-            <div className="flex space-x-6">
-              <h1 className="font-normal text-gray-700 text-3xl md:text-4xl">
-                03
-              </h1>
-
-              <span className="w-28 h-0.5 bg-gray-300 mt-5"></span>
-
-              <div>
-                <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
-                  Demo API Generator
-                </h1>
-
-                <p className="font-normal text-gray-500 text-sm md:text-base mb-5 max-w-xl">
-                  A dummy data free and documented API generator to
-                  facilitatethe process of testing the front-end portion of
-                  projects.
-                </p>
               </div>
             </div>
           </div>
