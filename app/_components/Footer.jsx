@@ -17,11 +17,7 @@ const Footer = () => {
           <div class="mx-auto" x-data="{ year: new Date().getFullYear() }">
             <span class="mx-auto mt-2 text-sm font-medium text-gray-500">
               Copyright © <span x-text="year">{new Date().getFullYear()}</span>
-              <a
-                aria-label="Michael Andreuzza"
-                href="#_"
-                class="mx-2 text-blue-500 hover:text-gray-500"
-              >
+              <a href="#_" class="mx-2 text-blue-500 hover:text-gray-500">
                 Medevs Tech
               </a>
               All rights reserved.
