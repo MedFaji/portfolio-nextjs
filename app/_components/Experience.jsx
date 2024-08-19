@@ -19,7 +19,12 @@ export const Experience = () => {
             </h6>
 
             <p className="font-semibold text-gray-600 text-base">
-              Freelancer
+              Charradi Services Agency
+              <span className="font-normal text-gray-300">/ Tangier</span>
+            </p>
+
+            <p className="font-semibold text-gray-600 text-base">
+              Self-employed
               <span className="font-normal text-gray-300">/ Casablanca</span>
             </p>
 
@@ -45,6 +50,10 @@ export const Experience = () => {
             </h6>
 
             <p className="font-normal text-gray-400 text-base">
+              Software Engineer
+            </p>
+
+            <p className="font-normal text-gray-400 text-base">
               Software Developer
             </p>
 
@@ -67,8 +76,10 @@ export const Experience = () => {
             </h6>
 
             <p className="font-normal text-gray-400 text-base">
-              2023 - Present
+              2024 - Present
             </p>
+
+            <p className="font-normal text-gray-400 text-base">2023 - 2024</p>
 
             <p className="font-normal text-gray-400 text-base">
               02/2023 - 08/2023
