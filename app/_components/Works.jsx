@@ -25,45 +25,9 @@ const Works = () => {
           </div>
 
           <div className="space-y-24">
-            <div className="flex space-x-6">
-              <h1 className="font-normal text-gray-700 text-3xl md:text-4xl">
-                01
-              </h1>
-
-              <span className="w-28 h-0.5 bg-gray-300 mt-5"></span>
-
-              <div>
-                <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
-                  Real Estate App
-                </h1>
-
-                <p className="font-normal text-gray-500 text-sm md:text-base mb-5 max-w-xl">
-                  Create and deploy a modern real estate application from
-                  scratch. Full Stack Real Estate App with Next.js, React.js,
-                  TailwindCss, Supabase and Clerk for Authentication and User
-                  Management.
-                </p>
-                <div className="flex items-center gap-3 ">
-                  <SiReact size={"25"} />
-                  <TbBrandNextjs size={"25"} />
-                  <SiTailwindcss size={"25"} />
-                  <RiSupabaseLine size={"25"} />
-                  <SiClerk size={"25"} />
-                  <span className="w-20 h-0.5 bg-gray-300 mx-3"></span>
-                  <Link
-                    href="https://real-estate-app.medevs.tech/"
-                    target="_blank"
-                    className="text-blue-500 font-semibold text-sm md:text-base flex items-center gap-2"
-                  >
-                    <LuExternalLink />
-                    View Project
-                  </Link>
-                </div>
-              </div>
-            </div>
             <div className="flex space-x-6 ">
               <h1 className="font-normal text-gray-700 text-3xl md:text-4xl">
-                02
+                01
               </h1>
 
               <span className="w-28 h-0.5 bg-gray-300 mt-5"></span>
@@ -96,10 +60,9 @@ const Works = () => {
                 </div>
               </div>
             </div>
-
             <div className="flex space-x-6">
               <h1 className="font-normal text-gray-700 text-3xl md:text-4xl">
-                03
+                02
               </h1>
 
               <span className="w-28 h-0.5 bg-gray-300 mt-5"></span>
