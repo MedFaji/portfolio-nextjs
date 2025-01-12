@@ -140,7 +140,7 @@ const ContactUs = () => {
                 </div>
                 <ReCAPTCHA
                   className="mt-4"
-                  sitekey="6LdPIGYpAAAAANyGRqhinsJe99Y46YzdAoE7DSdK"
+                  sitekey="6Ld7cbUqAAAAAKWBur56L7v_qAfk1ZW7f9FSM5wD"
                   onChange={(val) => setCapVal(val)}
                 />
                 <div className="mt-4">

@@ -19,7 +19,7 @@ export const Experience = () => {
             </h6>
 
             <p className="font-semibold text-gray-600 text-base">
-              Charradi Services Agency
+              CHARRADI SERVICES Agency
               <span className="font-normal text-gray-300">/ Tangier</span>
             </p>
 
