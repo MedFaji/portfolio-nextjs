@@ -71,7 +71,7 @@ const ContactUs = () => {
                 <div className="flex gap-2 items-center">
                   <FiPhone className="text-pink-600 mr-2" size={"20"} />
                   <a href="#" className="text-2xl font-bold text-pink-600">
-                    2126 463 5808{" "}
+                    2126 0463 5808{" "}
                   </a>
                 </div>
                 <div className="flex gap-2 items-center">
