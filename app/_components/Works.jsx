@@ -50,7 +50,7 @@ const Works = () => {
                   <SiTailwindcss size={"25"} />
                   <span className="w-20 h-0.5 bg-gray-300 mx-3"></span>
                   <Link
-                    href="https://grocery-store.medevs.tech/"
+                    href="https://grocery-store.medevz.com/"
                     target="_blank"
                     className="text-blue-500 font-semibold text-sm md:text-base flex items-center gap-2"
                   >
@@ -83,7 +83,7 @@ const Works = () => {
                   <FaCss3Alt size={"25"} />
                   <span className="w-20 h-0.5 bg-gray-300 mx-3"></span>
                   <Link
-                    href="https://yumrush.medevs.tech/"
+                    href="https://yumrush.medevz.com/"
                     target="_blank"
                     className="text-blue-500 font-semibold text-sm md:text-base flex items-center gap-2"
                   >
