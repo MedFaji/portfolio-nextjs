@@ -25,14 +25,15 @@ const Header = () => {
           </h6>
 
           <h1 className="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">
-            Junior Software Developer
+            Software Engineer | Specialized in Full-Stack Web Development
           </h1>
 
           <div className="flex justify-center">
             <p className="font-normal text-gray-600 text-md md:text-xl mb-16 w-9/12">
-              Recent Master's graduate in Information Systems Engineering with a
-              passion for software development. Eager to contribute technical
-              expertise and creativity to a dynamic team environment.
+              Full Stack Engineer specializing in end-to-end web solutions with
+              Java Spring Boot and modern JavaScript frameworks. Passionate
+              about building scalable applications that solve real-world
+              problems, with a focus on collaboration and continuous learning.
             </p>
           </div>
 
